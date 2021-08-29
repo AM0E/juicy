@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2,h3 {
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Order Button */
+.order-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Color Section */
+.colored-section {
+  background-color: #57CC99;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Heading */
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 10% 7%;
+  text-align: left;
+}
+
+#title p {
+  font-size: 2rem;
+}
+
+.title-img {
+  width: 70%;
+  position: absolute;
+  right: 10%;
+  box-shadow: 2px 2px 20px grey;
+  transform: rotate(5deg);
+  border-radius: 5%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 3%;
+}
+
+.feature-text {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.feature-icon {
+  color: #57CC99;
+  margin: 1rem;
+}
+
+.feature-icon:hover {
+  color: #38A3A5;
+}
+
+/* Testimonial Section */
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Prices Section */
+.pricing-img {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.pricing-box {
+  padding: 3% 2%;
+}
+
+/* Footer Section */
+.social-icon {
+  margin: 20px 20px;
+  color: #FFF;
+}
+
+.social-icon:hover {
+  color: #38A3A5;
+}
+
+#footer p {
+  color: #fff;
+  font-size: 1rem;
+}
+
+@media (max-width: 990px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .title-box {
+    text-align: center;
+  }
+
+  #about-us .navbar {
+    text-align: left;
+  }
+}
+
+/* About Us Page */
+#about-us .container-fluid {
+  padding: 3% 7% 15%;
+}
+.story-box {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 150px;
+}
+
+.story-1-img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 100%;
+}
+
+.story-2-img {
+  width: 150px;
+  height: 150px;
+  float: right;
+  margin-left: 20px;
+  border-radius: 100%;
+}
